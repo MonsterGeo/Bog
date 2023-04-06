@@ -1,80 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head tag -->
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-	
-	<!-- title -->
-	
-	<title>
-	 
-	Baka&#39;s blog
-	</title>
-	
-	<!-- keywords,description -->
-	
-		<meta name="keywords" content="god dammit sun." />
-	 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- favicon -->
-	
-	<link rel="shortcut icon" href="/Bog.github.io/favicon.ico">
-	
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/Bog.github.io/img/favicon.png">
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
 
 
-	<!-- search -->
-	<script>
-		var searchEngine = "https://www.google.com/search?q=";
-		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
-			searchEngine = "https://www.google.com/search?q=";
-		}
-		var homeHost = "wujun234.com";
-		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
-			homeHost = window.location.host;
-		}
-	</script>
+  
+<link rel="stylesheet" href="/Bog.github.io/css/style.css">
 
 
-	
-<link rel="stylesheet" href="/Bog.github.io/css/main.css">
-
-	
-<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/darcula.min.css">
-
-	
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
-
-
-	
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-
-	
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-	
-<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
-
-	
-<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
-
-	
-<script src="/Bog.github.io/js/main.js"></script>
-
-
-	
-		
-<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-
-		
-<script src="https://cdn.jsdelivr.net/npm/valine@v1.5.1/dist/Valine.min.js"></script>
-
-	
-	
-
+  
+  <title>Baka&#39;s blog</title>
 <meta name="generator" content="Hexo 6.3.0"><style>mjx-container[jax="SVG"] {
   direction: ltr;
 }
@@ -189,208 +138,275 @@ mjx-container[display="true"] + br {
 }
 </style></head>
 
+
 <body>
-	<header id="header">
-    <a id="title" href="/Bog.github.io/" class="logo">Baka's blog</a>
-
-	<ul id="menu">
-    
-
-    
-
-    
-
-    
-      
-      
-        <li class="menu-item">
-          <a href='https://github.com/wujun234/hexo-theme-tree' class="menu-item-link" target="_blank">
-            Tree
-          </a>
-        </li>
-      
-        <li class="menu-item">
-          <a href='https://github.com/wujun234/uid-generator-spring-boot-starter' class="menu-item-link" target="_blank">
-            UidGenerator
-          </a>
-        </li>
-      
-    
+  <header>
+    <nav id="navbar" class="navbar fixed-nav scrolling-navbar">
+  <div class="container">
+    <div class="mark-wrapper">
+       
+      <div class="title-mark">Baka's</div>
+    </div>
   
-    
-      <li class="menu-item">
-        <a href='https://github.com/wujun234' class="menu-item-link" target="_blank">
-          <i class="fa fa-github fa-2x"></i>
-        </a>
-      </li>
-    
-	</ul>
-</header>
+    <button id="menu-btn" class="btn menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+      <div class="menu-icon"><span></span><span></span><span></span></div>
+    </button>
+  
+    <div id="nav-menu" class="collapse menu-wrapper">
+      <ul>
+        
+          <li>
+            <a href="/Bog.github.io/">主页 </a>
+          </li>
+        
+          <li>
+            <a href="/Bog.github.io/archives">文章 </a>
+          </li>
+        
+          <li>
+            <a href="/Bog.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析 </a>
+          </li>
+        
+          <li>
+            <a href="/Bog.github.io/tags/%E6%9D%82%E8%B0%88">杂谈 </a>
+          </li>
+        
+        <li class="search-icon">
+          <button class="btn" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Search">
+            <i class="fas fa-search"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-	
-<div id="sidebar">
-	<button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button>
-	
-	<div id="site-toc">
-		<input id="search-input" class="search-input" type="search" placeholder="按回车全站搜索">
-		<div id="tree">
-			
+  </header>
 
-			
-							<ul>
-								<li class="directory">
-									<a href="#" class="directory">
-										<i class="fa fa-plus-square-o"></i>
-										数学分析
-									</a>
-									
-							<ul>
-								<li class="file">
-									<a href="/Bog.github.io/2023/04/02/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%B4%A7%E9%9B%86/">
-                     
-										    紧集
-                     
-									</a>
-								</li>
-								<div class="article-toc" style="display: none;"></div>
-							</ul>
-			
-								</li>
-								
-							</ul>
-			
-							<ul>
-								<li class="directory">
-									<a href="#" class="directory">
-										<i class="fa fa-plus-square-o"></i>
-										杂谈
-									</a>
-									
-							<ul>
-								<li class="file">
-									<a href="/Bog.github.io/2023/04/03/%E6%9D%82%E8%B0%88/testa/">
-                     
-										    testa
-                     
-									</a>
-								</li>
-								<div class="article-toc" style="display: none;"></div>
-							</ul>
-			
-							<ul>
-								<li class="file">
-									<a href="/Bog.github.io/2023/04/02/%E6%9D%82%E8%B0%88/%CF%80=4/">
-                     
-										    π=4
-                     
-									</a>
-								</li>
-								<div class="article-toc" style="display: none;"></div>
-							</ul>
-			
-								</li>
-								
-							</ul>
-			
-		</div>
-	</div>
-</div>
-
-	<!-- 引入正文 -->
-	<div id="content">
-		<div id="index">
-	
-		<div class="index-li">
-			<a href="/Bog.github.io/2023/04/03/%E6%9D%82%E8%B0%88/testa/">
-				<h2 class="index-title">
-					testa
-				</h2>
-				<div class="index-brief">
-					
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2023-04-03</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/Bog.github.io/2023/04/02/%E6%9D%82%E8%B0%88/%CF%80=4/">
-				<h2 class="index-title">
-					π=4
-				</h2>
-				<div class="index-brief">
-					这是个老生常谈的问题，我们画一个直径为，半径为的圆，并做一个外接正方形，则正方形的边为且得到周长为，则有如下的图。
+  <main>
+    <div class="container">
+      <div id="main">
+        <div class="row py-5">
+          <div class="col">
+            <div class="index-wrapper">
+  
+    <article class="row index-post-wrapper">
+      
+      <div class="col-12 col-md-12 mx-auto post-intro">
+        <div class="post-header null">
+          <a href="/Bog.github.io/2023/04/07/%E6%9D%82%E8%B0%88/wffc/" target="_self">
+            <h3>微分方程</h3>
+          </a>
+          
+        </div>
+        <div class="description">
+          
+            导论微分方程最简单的形式是 \frac{dy}{dx} = ky其中为确定的常数。而且有一个简单的解形式为，其中为常数
+这只是一个简单的例子，微分方程的阶数是以方程中含有最高阶导数的阶定义的，例如这个较复杂的方程：
+x^2\frac{d^4y}{dx^4} + \sin(x)\frac{d^2y}{dx^2}\left(\frac{dy}{dx}\right)^7+e^xy = \tan (x)虽...
+          
+        </div>
+        <div class="post-footer">
+          <time datetime="2023-04-07 04:27" pubdate>
+            2023-04-07
+          </time>
+          <div>
+             
+            
+               
+                <a class="tag" href="/Bog.github.io/tags/%E6%9D%82%E8%B0%88/">杂谈</a>
+               
+            
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="row index-post-wrapper">
+      
+      <div class="col-12 col-md-12 mx-auto post-intro">
+        <div class="post-header null">
+          <a href="/Bog.github.io/2023/04/07/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E6%B5%B7%E6%B6%85-%E5%8D%9A%E9%9B%B7%E5%B0%94%E5%AE%9A%E7%90%86/" target="_self">
+            <h3>海涅-博雷尔定理</h3>
+          </a>
+          
+        </div>
+        <div class="description">
+          
+            海涅-博雷尔定理上一章已经讲了集合的紧性，这一章主要是为了延续上章的内容———找出紧集。海涅-博雷尔定理指的是：的子集是紧集当且仅当它既是闭集又是有界集。为此，我们利用的主要是关于该定理的反向关系。定理只描述的结论，但有许多其他的度量空间都并非有该结论。例如在中是闭集，且有界，但不是紧集。
+但对于反例，不妨考虑无穷维的欧几里得空间，有限维的描述就是我们的海涅-博雷尔定理。对于无限维，我们已经说了要...
+          
+        </div>
+        <div class="post-footer">
+          <time datetime="2023-04-07 02:51" pubdate>
+            2023-04-07
+          </time>
+          <div>
+             
+            
+               
+                <a class="tag" href="/Bog.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/">数学分析</a>
+               
+            
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="row index-post-wrapper">
+      
+      <div class="col-12 col-md-12 mx-auto post-intro">
+        <div class="post-header null">
+          <a href="/Bog.github.io/2023/04/02/%E6%9D%82%E8%B0%88/%CF%80=4/" target="_self">
+            <h3>π=4?</h3>
+          </a>
+          
+        </div>
+        <div class="description">
+          
+            这是个老生常谈的问题，我们画一个直径为，半径为的圆，并做一个外接正方形，则正方形的边为且得到周长为，则有如下的图。
 然后我们现在再做一件事情，把正方形给折进去一点，则我们知道周长是不会变点的，但是图是这个样子
 
 ，而周长是不变的。然后我们不断折，不断折，即的时候就得到了
 
-然后我们发现，取极限就得到
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2023-04-02</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-		<div class="index-li">
-			<a href="/Bog.github.io/2023/04/02/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%B4%A7%E9%9B%86/">
-				<h2 class="index-title">
-					紧集
-				</h2>
-				<div class="index-brief">
-					紧集为了描述闭区间套定理，我们需要一些前置知识。
+然后我们发现，取极限就得到了正方形的周长等于圆的周长
+然后根据周长直径  取极限就等于，于是，我们就证明了，成功的推倒了数学大...
+          
+        </div>
+        <div class="post-footer">
+          <time datetime="2023-04-02 18:48" pubdate>
+            2023-04-02
+          </time>
+          <div>
+             
+            
+               
+                <a class="tag" href="/Bog.github.io/tags/%E6%9D%82%E8%B0%88/">杂谈</a>
+               
+            
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="row index-post-wrapper">
+      
+      <div class="col-12 col-md-12 mx-auto post-intro">
+        <div class="post-header null">
+          <a href="/Bog.github.io/2023/04/02/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%B4%A7%E9%9B%86/" target="_self">
+            <h3>紧集</h3>
+          </a>
+          
+        </div>
+        <div class="description">
+          
+            紧集为了描述闭区间套定理，我们需要一些前置知识。
 开覆盖设为度量空间上的任意一个子集，我们说中的开覆盖是一族集合，其中每个集合都是相对于的开集，并且包含在这些集合的并中。即：
-\forall \alpha,G_\alpha\text{相对于X是开集，并且}E\subset\bigcup_\alpha
-					...
-				</div>
-			</a>
-                <div class="article-meta">
-				    <span>2023-04-02</span>
-                    
-                            
-                    
-                </div>
-		</div>	
-	
-	
-	<div id="index-paginator">
-		
-	</div>
-</div>
-
-	</div>
-	<div id="footer">
-	<p>
-	©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
-	<a href="/">Baka</a> 
-	
-	
-	<br>
-	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
-	by <a href="//github.com/wujun234" target="_blank">WuJun</a>
-	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
-	</p>
+\forall \alpha,G_\alpha\text{相对于X是开集，并且}E\subset\bigcup_\alpha G_\alpha那么是的一个开覆盖，也就是说对于一个集合，我们可以用有限多个开集去覆盖住这个集合，...
+          
+        </div>
+        <div class="post-footer">
+          <time datetime="2023-04-02 15:19" pubdate>
+            2023-04-02
+          </time>
+          <div>
+             
+            
+               
+                <a class="tag" href="/Bog.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/">数学分析</a>
+               
+            
+          </div>
+        </div>
+      </div>
+    </article>
+   
 </div>
 
 
-<script type="text/javascript">
-	document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
-</script>
 
-<script type="text/javascript">
-	document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
-</script>
+          </div>
+        </div>
+      </div>
+    </div>
 
-	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
+     
+  <button id="scroll-to-top" class="btn btn-top" aria-label="Scroll To Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+ 
+
+  </main>
+
+  <div class="footer-wrapper">
+  <div class="left-content"></div>
+  <div class="right-content">
+    <div>Copyright &copy;2023</div>
+    <div>Powered By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> - Theme <a target="_blank" rel="noopener" href="https://github.com/thomasyu929/hexo-theme-peomas">Peomas</a></div>
+  </div>
+</div>
+
+  <div id="searchModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Search</h5>
+        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-wrapper">
+          <i class="fas fa-search"></i>
+          <input id="search" class="search-input" type="text" placeholder="Input content to search..." />
+        </div>
+        <ul id="result" class="list-group result-wrapper">
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.min.js"></script>
+
+
+<script src="/Bog.github.io/js/prism.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css">
+
+  
+<script src="/Bog.github.io/js/nprogress.js"></script>
+
+
+
+ 
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.11.1/tocbot.css">
+
+ 
+
+
+<script src="/Bog.github.io/js/event.js"></script>
+
+
+<script src="/Bog.github.io/js/search.js"></script>
+
+
+<script src="/Bog.github.io/js/plugin.js"></script>
+
+
+
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
         tex2jax: {
@@ -407,4 +423,5 @@ mjx-container[display="true"] + br {
 </script>
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
+
 </html>
